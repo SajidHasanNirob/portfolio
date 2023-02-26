@@ -1,0 +1,74 @@
+body{
+    font-family: 'Phudu', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.name-highlight{
+    color: blueviolet;
+}
+.height-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;    
+}
+.height-width img{
+    width:100%;
+}
+.top-banner{
+    background-image: url("F:/Web Development/Projects/My Prot-Folio/images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(purple,blue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    color: white;
+}
+.My-Dream{
+    background-image: url("F:/Web Development/Projects/My Prot-Folio/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.single-experiences{
+    box-shadow:10px 10px 40px gray ;
+    border-radius: 5px;
+    height: 70%;
+}
+.Experience{
+    background-image: url("F:/Web Development/Projects/My Prot-Folio/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+}
+#full{
+border:7px solid;
+border-image: linear-gradient(180deg, blue, aqua);
+border-image-slice: 1;
+
+
+}
+#stack{
+border: 7px solid;
+border-image: linear-gradient(180deg, brown, purple);
+border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    font-size: small;
+}
